@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="TopMenu" style="height: 50px; flex-direction: row;">
+        <ui:Button text="进入测试场景" display-tooltip-when-elided="true" name="EnterDebugScene" style="background-color: rgb(93, 125, 90);" />
+        <ui:Button text="回到上一个场景" display-tooltip-when-elided="true" name="BackToLastScene" style="background-color: rgb(192, 138, 128);" />
+        <ui:Button text="展示信息" display-tooltip-when-elided="true" name="ShowTip" style="background-color: rgb(76, 138, 154);" />
+        <uie:ObjectField label="角色" name="Character" type="UnityEngine.GameObject, UnityEngine.CoreModule" style="justify-content: flex-end; align-items: center; margin-right: 0; width: 162px; flex-direction: column; background-color: rgb(168, 75, 75);" />
+        <uie:ObjectField label="配置文件" name="Configure" type="EmiteInnaACT.SpellConfigureBase, Assembly-CSharp" allow-scene-objects="false" style="justify-content: flex-end; align-items: center; margin-right: 0; width: 211px; flex-direction: column; background-color: rgb(168, 75, 75);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Content" style="height: 300px; flex-direction: row;">
+        <ui:VisualElement name="ContentLeft" style="width: 154px;">
+            <ui:Button text="使用技能" display-tooltip-when-elided="true" name="SpellUse" style="height: 60px; background-color: rgb(108, 164, 98); margin-top: 25px;" />
+            <ui:Button text="重置" display-tooltip-when-elided="true" name="Refresh" style="height: 60px; background-color: rgb(108, 164, 98); margin-top: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentRight" style="width: auto; height: 427px;">
+            <ui:IMGUIContainer name="TimeLine" style="width: auto; height: 57px; margin-right: 15px; background-color: rgb(128, 115, 115);" />
+            <ui:ScrollView name="ContentView" mode="VerticalAndHorizontal" focusable="false" horizontal-scroller-visibility="AlwaysVisible" vertical-scroller-visibility="AlwaysVisible" style="height: 273px; align-items: stretch;">
+                <ui:VisualElement name="AnimationLine" style="flex-direction: row; height: 251px;">
+                    <ui:IMGUIContainer name="AnimationField" style="width: 2000px; flex-direction: column; background-color: rgb(170, 171, 162); height: 250px; -unity-background-scale-mode: stretch-to-fill; -unity-slice-top: 0; -unity-background-image-tint-color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

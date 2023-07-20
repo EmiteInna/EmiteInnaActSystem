@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc599115eea21b43a4c95a53875969a, type: 3}
+  m_Name: KuruPlayer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: configureList
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  VerticalUp: 119
+  HorizontalRight: 100
+  VerticalDown: 115
+  HorizontalLeft: 97
+  Jump: 32
+  Sprint: 304
+  Attack: 106
+  Defend: 0
+  MaxHealth: 0
+  CurrentHealth: 0
+  MovementSpeed: 2
+  RotationSpeed: 800
+  JumpHeight: 0.5
+  SprintSpeedMultiplier: 1.8
+  IdelAnimation: {fileID: 7400000, guid: 1cd3ea89383ec554fac6ca407666ae93, type: 2}
+  WalkAnimation: {fileID: 7400000, guid: a477dee1cbada0542ba7cca14e80fc31, type: 2}
+  SprintAnimation: {fileID: 7400000, guid: 8362a2a205f672544b2e8d4de3561276, type: 2}
+  JumpRisingAnimation: {fileID: 7400000, guid: e403f5140d852e842b6d36f744c682c6, type: 2}
+  JumpLandingAnimation: {fileID: 7400000, guid: 10c0f8afa4c4ade46b27004dbb6e224a,
+    type: 2}
+  JumpLandedAnimation: {fileID: 7400000, guid: 5089fcf77312d314ba99b9e295d5c1b5, type: 2}
+  Footstep: {fileID: 8300000, guid: 95fcd6bd0c0da2b48b3debcd23793e34, type: 3}
+  spellList:
+  - {fileID: 11400000, guid: a6a4531a83c0b7645bb515571c112f7e, type: 2}
+  - {fileID: 11400000, guid: a0549f41a81e92147a72f32e59d49a06, type: 2}
+  - {fileID: 11400000, guid: 4a7590f41b206ed42b06d4a814a9f979, type: 2}
+  - {fileID: 11400000, guid: 2c85a995302688b42b1c598bfa34eb7d, type: 2}
+  - {fileID: 11400000, guid: 21f035a88590f30479d3cf5be1507073, type: 2}
+  BaseAttack: 106
