@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7caf60d21be3b7e449792a7a5d4668fa, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: configureList
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  VerticalUp: 0
+  HorizontalRight: 0
+  VerticalDown: 0
+  HorizontalLeft: 0
+  Jump: 0
+  Sprint: 0
+  Attack: 0
+  Defend: 0
+  MaxHealth: 0
+  CurrentHealth: 0
+  MovementSpeed: 0
+  RotationSpeed: 0
+  JumpHeight: 0
+  SprintSpeedMultiplier: 0
+  IdelAnimation: {fileID: 7400000, guid: be80228dab934ad4f81f7bdbdd656a90, type: 2}
+  WalkAnimation: {fileID: 0}
+  SprintAnimation: {fileID: 0}
+  JumpRisingAnimation: {fileID: 0}
+  JumpLandingAnimation: {fileID: 0}
+  JumpLandedAnimation: {fileID: 0}
+  HurtAnimation: {fileID: 7400000, guid: bee8851fb50a0a747a8e72b4f2f64509, type: 2}
+  StunAnimation: {fileID: 0}
+  Footstep: {fileID: 0}
+  Hurt: {fileID: 0}
+  HeavilyHurt: {fileID: 0}
+  spellList: []
